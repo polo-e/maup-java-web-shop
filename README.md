@@ -1,2 +1,1 @@
-ITEA Java Web 
-Repository of homeworks.
+Java Web Shop Repository.

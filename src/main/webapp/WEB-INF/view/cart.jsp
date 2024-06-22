@@ -22,8 +22,11 @@
                     <td><font color="#E5E7E9">${list.value * list.key.price} грн</font></td>
                     <td>
                         <input id="cnt${list.key.id}" type="text" name="count" value="${list.value}"></input>
-                        <input id="del${list.key.id}" type="submit" name="productId" value="Delete"
+                        <input id="del${list.key.id}" type="submit" name="productId" value="Видалити"
                                onclick="del('${list.key.id}')"/>
+                        <div style="margin-top: 10px;">
+                            <input id="order${list.key.id}" type="submit" name="order" value="Оформити замовлення" style="background-color: lightgreen;"/>
+                        </div>
                     </td>
                 </tr>
             </table>
